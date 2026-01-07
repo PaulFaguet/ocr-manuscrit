@@ -1,0 +1,15 @@
+.env
+*.pdf
+*.png
+*.zip
+*.md
+.jsonl
+
+data/images/
+data/lines/
+ocr/
+old/
+
+transcription.jsonl
+
+.venv/
