@@ -23,8 +23,12 @@ Digitalisation d'un manuscrit familial de ~500 pages en utilisant un Vision-Lang
 │   └── tests/
 │       ├── test_LFM2_5_base_model.py         # Test du modèle de base
 │       └── test_SFT_LFM2_VL_1_6B.py          # Test du modèle fine-tuné
-├── models/                                    # (non versionné) Modèle et Adapters
-└── data/                                      # (non versionné) Dataset et transcriptions (jsonl)
+├── models/                                   # (non versionné) Modèle et Adapters
+└── data/                                     # (non versionné) Dataset et transcriptions (jsonl)
+└── sample/                     
+    ├── lines_sample/                         # Sample des lignes PNG de la page 6
+    ├── page_006.png                          # Exemple de PNG d'une page
+    └── transcription_sample.png              # Sample des transcriptions des lignes augmentées
 ```
 
 ## 🔄 Pipeline
